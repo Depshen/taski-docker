@@ -1,0 +1,20 @@
+# Файл .dockerignore
+# Виртуальное окружение
+venv
+env/
+
+# Системные папки Git
+.git
+
+# Локальная база данных
+db.sqlite3
+
+# Файлы с секретными переменными окружения
+.env
+
+# Настройки IDE (PyCharm, VS Code и системные файлы macOS)
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
